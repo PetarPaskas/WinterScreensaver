@@ -1,0 +1,105 @@
+*{
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+}
+body{
+    height: 100vh;
+    width:100%;
+   background-image:url(img1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   border:none;
+}
+#sat{
+    position:absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,-10%);
+    padding:2% 4% 2% 4%;
+    font-size: 382%;
+    border-radius: 30px;
+    background-color: rgba(245, 245, 245, 0.288);
+    color: rgb(22, 92, 19);
+    z-index: 3;
+}
+.pahuljica{
+    position:absolute;
+    width:5%;
+    height: auto;
+    top:-20%;
+    
+    
+}
+#p-4{
+    left:45%;
+    animation: padanje 5s 1.8s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+}
+#p-1{
+    left:10%;
+    animation: padanje 5s 2.8s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+}
+#p-2{
+    left: 75%;
+    animation: padanje 5s 5.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+   
+}
+#p-3{
+    left:13%;
+    width:8%;
+    animation: padanje 5s 1.1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+}
+.pahuljica img{
+    width:100%;
+    height:auto;
+}
+@keyframes padanje{
+    0%{
+        
+    }
+    100%{
+        top:120%;
+    }
+}
+.sneg{
+    width:5%;
+    top:-20%;
+    position:absolute;
+}
+.sneg svg{ 
+    display:block;
+    padding:1px;
+}
+#s-1{
+ left:85%;
+ animation: padanje 4s 4.5s;
+ animation-iteration-count: infinite;
+ animation-fill-mode: backwards;
+}
+#s-2{
+ left:55%;
+ animation: padanje 4s 1.5s;
+ animation-iteration-count: infinite;
+ animation-fill-mode: backwards;
+}
+#s-3{
+left:40%;
+animation: padanje 4s 3.5s;
+animation-iteration-count: infinite;
+animation-fill-mode: backwards;
+}
+#s-4{
+ left:19%;
+ animation: padanje 4s 2.5s;
+ animation-iteration-count: infinite;
+ animation-fill-mode: backwards;
+}
